@@ -1,0 +1,222 @@
+body{
+    margin: 0;
+}
+.continer{
+background-color: white;
+}
+.header{
+    width: 100%;
+    height: 150px;
+    background: white;
+    display: flex;
+    position: fixed;
+
+}
+.header img{
+    width: 340px;
+    height: 121px;
+    margin-top: 10px;
+    margin-left: 106px;
+    margin-right: 70px;
+}
+.header form{
+    margin-top: 20px;
+    
+}
+.header form select{
+border: none;
+font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background: transparent;
+}
+.header form  button{
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    
+}
+.header form  button a{
+    text-decoration: none;
+    color: #000000;
+}
+.header form  button a:hover{
+    color: orangered;
+}
+.background{
+    width: 100%;
+    height: 150px;
+    background: white;
+}
+.second{
+    width: 100%;
+    height: 555px;
+    background-image: url(images/bsa2.png);
+}
+.third-part1-head{
+    font-size: 40px;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+color: rgba(242,111,33,0.85);
+text-align: center;
+}
+.third-part1-contant{
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    color: rgba(242,111,33,0.7);
+    text-align: center;
+    font-size: 20px;
+}
+.third-part2{
+    margin-top: 100px;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    color: rgba(242,111,33,0.85);
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+}
+.third-part2::before{
+    content: "";
+    display: block;
+    width: 500px;
+    height: 1px;
+    background: rgba(242,111,33,0.85);
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+.third-part2::after{
+    content: "";
+    display: block;
+    width: 500px;
+    height: 1px;
+    background: rgba(242,111,33,0.85);
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.third-part3{
+display: flex;
+}
+.third-part3-left{
+flex: 1;
+text-align: center;
+
+}
+.third-part3-left img{
+    width: 365px;
+    height: 232px;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    transition: 0.8s;
+
+}
+.third-part3-left img:hover{
+    width: 385px;
+    height: 252px;
+}
+.third-part3-left h1{
+    font-size: 20px;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+color: rgba(242,111,33,0.85);
+}
+.third-part3-left p{
+    margin-right: 25px;
+    margin-left: 25px;
+    color: #747474;
+    text-align: justify;
+    font-size: 17px;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+
+}
+.third-part3-left button{
+    width: 180px;
+    height: 45px;
+    background-color: rgba(242,111,33,0.85);
+    border: none;
+    color: white;
+    transition: 0.8s;
+}
+.third-part3-left button:hover{
+background-color: #000000;
+}
+.third-part3-right{
+flex: 1;
+text-align: center;
+}
+.third-part3-right img{
+    width: 365px;
+    height: 232px;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    transition: 0.8s;
+}
+.third-part3-right img:hover{
+    width: 385px;
+    height: 252px;
+}
+.third-part3-right h1{
+    font-size: 20px;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+color: rgba(242,111,33,0.85);
+}
+.third-part3-right p{
+    margin-right: 25px;
+    margin-left: 25px;
+    color: #747474;
+    text-align: justify;
+    font-size: 17px;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+}
+.third-part3-right button{
+    width: 180px;
+    height: 45px;
+    background-color: rgba(242,111,33,0.85);
+    border: none;
+    color: white;
+    transition: 0.8s;
+}
+.third-part3-right button:hover{
+    background-color: #000000;
+    }
+.third{
+    width: 100%;
+    height: 1500px;
+    background: white;
+}
+.forth{
+    width: 100%;
+    height: 55px;
+    background: #e5567d;
+}
+.forth p{
+    text-align: center;
+    color: #000000;;
+    font-size: 20px;
+    padding-top: 15px;
+}
+.fifth{
+    width: 100%;
+    height: 80px;
+    background: #f26f21;
+    display: flex;
+   padding-left: 550px;
+   padding-top: 20px;
+}
+.fifth p{
+color: white;
+font-size: 12px;
+text-align: center;
+}
+.fifth a{
+color: #747474;
+font-size: 12px;
+padding-top: 12px;
+text-decoration: none;
+transition: 0.8s;
+}
+.fifth a:hover{
+    color: white;
+}
